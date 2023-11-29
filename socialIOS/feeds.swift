@@ -7,7 +7,7 @@
 
 import UIKit
 
-class frontPg: UIViewController ,UICollectionViewDelegate,UICollectionViewDataSource{
+class feeds: UIViewController ,UICollectionViewDelegate,UICollectionViewDataSource{
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
