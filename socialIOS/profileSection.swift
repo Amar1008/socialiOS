@@ -9,9 +9,10 @@ import UIKit
 
 class profileSection: UIViewController {
 
+    @IBOutlet weak var editProfile: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+ 
         // Do any additional setup after loading the view.
     }
     
@@ -26,4 +27,18 @@ class profileSection: UIViewController {
     }
     */
 
+}
+
+class SelfSizingTableView: UITableView {
+    override var contentSize: CGSize {
+        didSet {
+            invalidateIntrinsicContentSize()
+            setNeedsLayout()
+        }
+    }
+
+    override var intrinsicContentSize: CGSize {
+        let height = min(.infinity, contentSize.height)
+        return CGSize(width: contentSize.width, height: height)
+    }
 }
