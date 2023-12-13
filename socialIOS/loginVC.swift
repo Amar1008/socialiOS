@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  loginVC.swift
 //  socialIOS
 //
-//  Created by kamal on 01/12/23.
+//  Created by kamal on 06/12/23.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class loginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

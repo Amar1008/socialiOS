@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  postStory.swift
 //  socialIOS
 //
 //  Created by kamal on 01/12/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class postStory: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

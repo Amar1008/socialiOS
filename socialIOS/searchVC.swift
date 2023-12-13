@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  searchVC.swift
 //  socialIOS
 //
-//  Created by kamal on 01/12/23.
+//  Created by kamal on 04/12/23.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class searchVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
