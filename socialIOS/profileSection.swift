@@ -7,7 +7,7 @@
 
 import UIKit
 
-class profileSection: UIViewController {
+class profileSection: UIViewController{
 
     @IBOutlet weak var editProfile: UIButton!
     override func viewDidLoad() {
@@ -40,5 +40,21 @@ class SelfSizingTableView: UITableView {
     override var intrinsicContentSize: CGSize {
         let height = min(.infinity, contentSize.height)
         return CGSize(width: contentSize.width, height: height)
+    }
+}
+
+class SelfSizingCollectionView: UICollectionView {
+    override var contentSize: CGSize {
+        didSet {
+            if oldValue.height != self.contentSize.height {
+                invalidateIntrinsicContentSize()
+            }
+        }
+    }
+    
+    override var intrinsicContentSize: CGSize {
+        layoutIfNeeded()
+        return CGSize(width: UIView.noIntrinsicMetric,
+                      height: contentSize.height)
     }
 }

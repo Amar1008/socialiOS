@@ -9,13 +9,27 @@ import UIKit
 
 class postStory: UIViewController {
 
+    @IBOutlet weak var addBTN: CustomizableButton!
+    @IBOutlet weak var optionsForUPLoading: CustomizableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    var iconClick = true
     
-
+    @IBAction func addBTN(_ sender: Any) {
+        if iconClick {
+            optionsForUPLoading.isHidden = false
+            addBTN.setImage(UIImage(named: "close"), for: .normal)
+        } else {
+            optionsForUPLoading.isHidden = true
+            addBTN.setImage(UIImage(named: "+"), for: .normal)
+        }
+        iconClick = !iconClick
+    }
+    
     /*
     // MARK: - Navigation
 
