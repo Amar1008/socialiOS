@@ -8,7 +8,7 @@
 import UIKit
 import FirebaseDatabase
 
-class signIN: UIViewController {
+class signINVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

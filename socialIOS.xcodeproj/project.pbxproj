@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2332352B33314D00C5FB75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A2332342B33314D00C5FB75 /* GoogleService-Info.plist */; };
+		8A2332372B34134700C5FB75 /* forgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2332362B34134700C5FB75 /* forgetPasswordVC.swift */; };
+		8A2332392B370CDA00C5FB75 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2332382B370CDA00C5FB75 /* profileVC.swift */; };
 		8A30F6D32B19BA52004EC10E /* postStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A30F6D22B19BA52004EC10E /* postStory.swift */; };
-		8A39A0A62B149EF600BFCE4E /* profileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39A0A52B149EF600BFCE4E /* profileSection.swift */; };
 		8A4E154A2B1A0E8300C37095 /* homeDashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E15492B1A0E8300C37095 /* homeDashBoard.swift */; };
 		8A4E154E2B1DBACB00C37095 /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E154D2B1DBACB00C37095 /* searchVC.swift */; };
 		8A4E15502B1DDC2800C37095 /* launchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E154F2B1DDC2800C37095 /* launchClass.swift */; };
@@ -41,6 +43,8 @@
 		8A6429692B21C294008F2461 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8A6429682B21C294008F2461 /* FirebaseStorageCombine-Community */; };
 		8A8040362B19A73D0008F41B /* CustomizableStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8040352B19A73D0008F41B /* CustomizableStack.swift */; };
 		8A89B9992B207CB5002C956B /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A89B9982B207CB5002C956B /* CustomPageControl.swift */; };
+		8A97ACBF2B302940009A029B /* createAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97ACBE2B302940009A029B /* createAccount.swift */; };
+		8A97ACC32B3035AE009A029B /* createAccVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A97ACC22B3035AE009A029B /* createAccVC.swift */; };
 		8AB7C4492B0F5FDD008F206E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7C4482B0F5FDD008F206E /* AppDelegate.swift */; };
 		8AB7C44B2B0F5FDD008F206E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7C44A2B0F5FDD008F206E /* SceneDelegate.swift */; };
 		8AB7C4502B0F5FDD008F206E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7C44E2B0F5FDD008F206E /* Main.storyboard */; };
@@ -58,17 +62,20 @@
 		8AB7C4752B0FC7A9008F206E /* RectangularDashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7C4692B0FC7A9008F206E /* RectangularDashedView.swift */; };
 		8AB7C4762B0FC7A9008F206E /* ErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7C46A2B0FC7A9008F206E /* ErrorLabel.swift */; };
 		8AC5091A2B20B00900F908E5 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC509192B20B00900F908E5 /* loginVC.swift */; };
-		8AC5091C2B20B72600F908E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC5091B2B20B72600F908E5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A2332342B33314D00C5FB75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8A2332362B34134700C5FB75 /* forgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPasswordVC.swift; sourceTree = "<group>"; };
+		8A2332382B370CDA00C5FB75 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
 		8A30F6D22B19BA52004EC10E /* postStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postStory.swift; sourceTree = "<group>"; };
-		8A39A0A52B149EF600BFCE4E /* profileSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileSection.swift; sourceTree = "<group>"; };
 		8A4E15492B1A0E8300C37095 /* homeDashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeDashBoard.swift; sourceTree = "<group>"; };
 		8A4E154D2B1DBACB00C37095 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVC.swift; sourceTree = "<group>"; };
 		8A4E154F2B1DDC2800C37095 /* launchClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchClass.swift; sourceTree = "<group>"; };
 		8A8040352B19A73D0008F41B /* CustomizableStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizableStack.swift; sourceTree = "<group>"; };
 		8A89B9982B207CB5002C956B /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		8A97ACBE2B302940009A029B /* createAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccount.swift; sourceTree = "<group>"; };
+		8A97ACC22B3035AE009A029B /* createAccVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccVC.swift; sourceTree = "<group>"; };
 		8AB7C4452B0F5FDD008F206E /* socialIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB7C4482B0F5FDD008F206E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AB7C44A2B0F5FDD008F206E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +95,6 @@
 		8AB7C4692B0FC7A9008F206E /* RectangularDashedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangularDashedView.swift; sourceTree = "<group>"; };
 		8AB7C46A2B0FC7A9008F206E /* ErrorLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorLabel.swift; sourceTree = "<group>"; };
 		8AC509192B20B00900F908E5 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
-		8AC5091B2B20B72600F908E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,11 +154,12 @@
 		8AB7C4472B0F5FDD008F206E /* socialIOS */ = {
 			isa = PBXGroup;
 			children = (
+				8A2332342B33314D00C5FB75 /* GoogleService-Info.plist */,
 				8AB7C45E2B0FC7A9008F206E /* Customizable */,
 				8AB7C4482B0F5FDD008F206E /* AppDelegate.swift */,
 				8AB7C44A2B0F5FDD008F206E /* SceneDelegate.swift */,
+				8A2332362B34134700C5FB75 /* forgetPasswordVC.swift */,
 				8AB7C45C2B0F632F008F206E /* feeds.swift */,
-				8A39A0A52B149EF600BFCE4E /* profileSection.swift */,
 				8A30F6D22B19BA52004EC10E /* postStory.swift */,
 				8AB7C44E2B0F5FDD008F206E /* Main.storyboard */,
 				8AB7C4512B0F5FDE008F206E /* Assets.xcassets */,
@@ -162,7 +169,9 @@
 				8A4E154D2B1DBACB00C37095 /* searchVC.swift */,
 				8A4E154F2B1DDC2800C37095 /* launchClass.swift */,
 				8AC509192B20B00900F908E5 /* loginVC.swift */,
-				8AC5091B2B20B72600F908E5 /* GoogleService-Info.plist */,
+				8A97ACBE2B302940009A029B /* createAccount.swift */,
+				8A97ACC22B3035AE009A029B /* createAccVC.swift */,
+				8A2332382B370CDA00C5FB75 /* profileVC.swift */,
 			);
 			path = socialIOS;
 			sourceTree = "<group>";
@@ -277,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB7C4552B0F5FDE008F206E /* LaunchScreen.storyboard in Resources */,
-				8AC5091C2B20B72600F908E5 /* GoogleService-Info.plist in Resources */,
+				8A2332352B33314D00C5FB75 /* GoogleService-Info.plist in Resources */,
 				8AB7C4522B0F5FDE008F206E /* Assets.xcassets in Resources */,
 				8AB7C4502B0F5FDD008F206E /* Main.storyboard in Resources */,
 			);
@@ -305,10 +314,13 @@
 				8AB7C44B2B0F5FDD008F206E /* SceneDelegate.swift in Sources */,
 				8A8040362B19A73D0008F41B /* CustomizableStack.swift in Sources */,
 				8A4E15502B1DDC2800C37095 /* launchClass.swift in Sources */,
-				8A39A0A62B149EF600BFCE4E /* profileSection.swift in Sources */,
 				8A89B9992B207CB5002C956B /* CustomPageControl.swift in Sources */,
 				8AB7C4722B0FC7A9008F206E /* CustomRatingBar.swift in Sources */,
 				8AB7C46F2B0FC7A9008F206E /* CustomizableTextfield.swift in Sources */,
+				8A2332392B370CDA00C5FB75 /* profileVC.swift in Sources */,
+				8A97ACBF2B302940009A029B /* createAccount.swift in Sources */,
+				8A2332372B34134700C5FB75 /* forgetPasswordVC.swift in Sources */,
+				8A97ACC32B3035AE009A029B /* createAccVC.swift in Sources */,
 				8AB7C4712B0FC7A9008F206E /* RectangularDashedUIView.swift in Sources */,
 				8AB7C4752B0FC7A9008F206E /* RectangularDashedView.swift in Sources */,
 			);

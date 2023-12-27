@@ -27,7 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 }
             } else {
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                if let  signInViewController = storyboard.instantiateViewController(withIdentifier: "home") as? homeDashBoard {
+                if let  signInViewController = storyboard.instantiateViewController(withIdentifier: "LogIN") as? profileVC {
                     window?.rootViewController = signInViewController
                 }
             }

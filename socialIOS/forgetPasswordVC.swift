@@ -14,7 +14,7 @@ class forgetPasswordVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+   
 
     /*
     // MARK: - Navigation
@@ -26,4 +26,7 @@ class forgetPasswordVC: UIViewController {
     }
     */
 
+    @IBAction func doneBTN(_ sender: Any) {
+        self.dismiss(animated: false, completion: nil)
+    }
 }
