@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import FirebaseDatabaseInternal
 import Firebase
 
 class loginVC: UIViewController {

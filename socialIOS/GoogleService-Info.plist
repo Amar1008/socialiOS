@@ -26,5 +26,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:126244112539:ios:fa22a31cb6c1285c101e3e</string>
+	<key>DATABASE_URL</key>
+	<string>https://socialios-9263c-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
